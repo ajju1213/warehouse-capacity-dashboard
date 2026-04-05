@@ -81,7 +81,8 @@ warehouse-utilization-analytics/
 ---
 ## 📷 Dashboard Preview
 
-
+![Dashboard](screenshots/dashboard.jpeg)
+![Data Model](screenshots/datamodel_view.jpeg)
 
 
 
