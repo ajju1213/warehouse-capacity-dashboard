@@ -1,5 +1,6 @@
 # 🏭 Warehouse Utilization Analytics Dashboard
-Power BI solution to monitor warehouse capacity utilization across multiple categories (MAIN, ONLINE, RETURN, OVERALL), featuring overload detection, threshold tracking, and dynamic DAX-driven insights using SAP MB52 data.
+A Power BI dashboard designed to monitor warehouse capacity utilization across multiple categories (MAIN, ONLINE, RETURN, OVERALL).The solution enables real-time tracking of stock levels, dispatch impact, and overload risks using SAP MB52 data.
+
 
 ## 📊 Project Overview
 
@@ -7,16 +8,25 @@ This Power BI dashboard provides end-to-end visibility into warehouse utilizatio
 
 ### 🚀 It enables:
 
-- Monitoring of stock levels and pending dispatch across categories (MAIN, ONLINE, RETURN)  
-- Capacity utilization tracking to measure warehouse efficiency  
-- Identification of overloaded warehouses based on utilization thresholds  
-- Daily risk monitoring with threshold alerts (90%+ utilization)  
-- Dynamic KPI tracking for stock, dispatch, and capacity metrics  
+- Track category-wise stock (MAIN / ONLINE / RETURN) and overall inventory  
+- Monitor capacity utilization and warehouse efficiency  
+- Identify overloaded warehouses (>100% utilization)  
+- Detect risk zones with 90%+ threshold tracking  
+- Analyze impact of pending dispatch on utilization  
+- Enable data-driven operational decision-making  
 
 ### ⚙️ Solution Approach
 
-The solution is built using a scalable folder-based ingestion approach, making it suitable for automated daily operational reporting.
+- Built using a **folder-based automated data ingestion** approach for daily reporting  
+- Integrated SAP MB52 stock data with dispatch data  
+- Designed a **star schema data model** for efficient performance  
+- Developed dynamic DAX measures for flexible analysis  
 
+---
+## 📷 Dashboard Preview
+
+![Dashboard](screenshots/dashboard.jpeg)
+![Data Model](screenshots/datamodel_view.jpeg)
 ---
 
 ## 🚀 Key Features
@@ -78,14 +88,6 @@ warehouse-utilization-analytics/
 │   └── datamodel_view.jpeg
 └── README.md
 ```
----
-## 📷 Dashboard Preview
-
-![Dashboard](screenshots/dashboard.jpeg)
-![Data Model](screenshots/datamodel_view.jpeg)
-
-
-
 ---
 
 ## 📌 Business Logic
